@@ -1,0 +1,268 @@
+<!--HTML5的文档类型-->
+<!doctype html>
+<!--网页的编码语言，zh-CN为简体中文，zh为其它的中文，比如繁体等等-->
+<!--对于浏览器安装了谷歌翻译这些，设置了'en'的话，会启动翻译，但是对于一些盲人的阅读软件，有中文字符的可能会忽略跳过，但是为了网站的易用性，和搜索引擎的收录，最好设置下正确的编码语言-->
+<html lang="zh-Ch">
+<head>
+    <!--设置网页的编码格式，需要说明的是，这里的编码格式应尽早声明，也就是在head标签下的第一处就开始申明它，如果在title后面申明，在老版本浏览器下，可能会出现两种问题：1、整个页面空白 2、整个页面乱码-->
+    <!--根据W3C标准定义，charset应在网页的前1024字节定义-->
+    <meta charset="utf-8">
+    <!--IE文档兼容性，content设置为ie=EmulateIE8，表示为模仿IE8的模式渲染，ie=edge，表示强制用最新的IE浏览器模式来渲染，IE11这个文档模式已经弃用了，因为IE11+对标准的支持已经很完善了-->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>理财网站</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+</head>
+<body>
+<!-- IE的条件注释 -->
+<!--[if lte IE 8]>
+<p class="browserupgrade">你的浏览器版本老的可笑，请到<a href="http://browsehappy.com/">这里</a>更新，以获取最佳的体验</p>
+<![endif]-->
+
+<header>
+    <nav class="top">
+        <a href="tel:400-880-8820" class="tel">理财热线: 400-880-8820</a>
+        <ul>
+            <li><a href="#">登录</a></li>
+            <li><a href="#">快速注册</a></li>
+            <li><a href="#">关于</a></li>
+            <li><a href="#">帮助</a></li>
+            <li><a href="#">APP下载</a></li>
+        </ul>
+    </nav>
+    <nav class="main">
+        <a href="#" class="brand"><img src="img/logo@1x.png" alt="回到首页"></a>
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">理财频道</a></li>
+            <li><a href="#">投资频道</a></li>
+            <li><a href="#">新手专区</a></li>
+            <li><a href="#">安全保障</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="container">
+    <section class="trade clearfix">
+        <div class="trade-content">
+            <div class="trade-data">
+                <span>平台累计成交金额</span>
+                <span class="trade-money">20000</span>
+                <span>万元</span>
+            </div>
+            <div class="trade-data">
+                <span>过去7日成交金额</span>
+                <span class="trade-money">2000</span>
+                <span>万元</span>
+            </div>
+            <div class="trade-report">
+                <a href="#">查看平台运营报告</a>
+            </div>
+        </div>
+    </section>
+    <section class="ad">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/ad001-l.png">
+            </div>
+            <div class="item">
+                <img src="img/ad002-l.png">
+            </div>
+            <div class="item">
+                <img src="img/ad003-l.png">
+            </div>
+        </div>
+    </section>
+    <section class="feature">
+        <div class="item">
+            <h3>安全</h3>
+            <p>国家AAA信用平台<br>银行资金托管<br>上市公司背景保证</p>
+        </div>
+        <div class="item">
+            <h3>权威</h3>
+            <p>中央电视台推荐<br>互联网百强企业<br>标准起草单位</p>
+        </div>
+        <div class="item">
+            <h3>省心</h3>
+            <p>100元起投<br>用户利益保障机制<br>保险公司承保</p>
+        </div>
+    </section>
+    <section class="notice clearfix">
+        <a href="#"><span>2016-02-07</span>春节期间业务受理及值班公告春节期间业务受理及值班公告春节期间业务受理及值班公告春节期间业务受理及值班公告</a>
+        <a href="#" class="more">更多公告</a>
+    </section>
+    <section class="product clearfix">
+        <h2>
+            固定期限产品
+            <em>甄选优质基金</em>
+            <em>省时省力</em>
+            <em>坐等收益</em>
+        </h2>
+        <div class="product-content">
+            <div class="item clearfix">
+                <h3><em>3</em>个月</h3>
+                <div class="info">
+                    <p>约定年化收益率<span class="year-rate">3.05%<i>起</i></span></p>
+                    <p>总成交金额<span class="total-money">2000<i>万元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#">购买</a>
+                </div>
+            </div>
+            <div class="item clearfix">
+                <h3><em>3</em>个月</h3>
+                <div class="info">
+                    <p>约定年化收益率<span class="year-rate">3.05%<i>起</i></span></p>
+                    <p>总成交金额<span class="total-money">2000<i>万元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#">购买</a>
+                </div>
+            </div>
+            <div class="item clearfix">
+                <h3><em>3</em>个月</h3>
+                <div class="info">
+                    <p>约定年化收益率<span class="year-rate">3.05%<i>起</i></span></p>
+                    <p>总成交金额<span class="total-money">2000<i>万元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#">购买</a>
+                </div>
+            </div>
+            <div class="item clearfix">
+                <h3><em>3</em>个月</h3>
+                <div class="info">
+                    <p>约定年化收益率<span class="year-rate">3.05%<i>起</i></span></p>
+                    <p>总成交金额<span class="total-money">2000<i>万元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#">购买</a>
+                </div>
+            </div>
+            <div class="item clearfix">
+                <h3><em>3</em>个月</h3>
+                <div class="info">
+                    <p>约定年化收益率<span class="year-rate">3.05%<i>起</i></span></p>
+                    <p>总成交金额<span class="total-money">2000<i>万元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#">购买</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="product clearfix">
+        <h2>
+            债权/散标产品
+            <em>自主投资</em>
+            <em>期限灵活</em>
+        </h2>
+        <div class="product-content">
+            <div class="item clearfix">
+                <h3><em>3</em>个月<i>日常生活消费</i></h3>
+                <div class="info">
+                    <p>约定年化收益率<span class="year-rate">3.05%</span></p>
+                    <p>总成交金额<span class="total-money">2000<i>元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#">投标</a>
+                </div>
+            </div>
+            <div class="item clearfix">
+                <h3><em>5</em>个月<i>资金周转</i></h3>
+                <div class="info">
+                    <p>约定年化收益率<span class="year-rate">3.05%</span></p>
+                    <p>总成交金额<span class="total-money">2000<i>元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#">投标</a>
+                </div>
+            </div>
+            <div class="item clearfix">
+                <h3><em>3</em>个月<i>资金周转</i></h3>
+                <div class="info">
+                    <p>约定年化收益率<span class="year-rate">13.05%</span></p>
+                    <p>总成交金额<span class="total-money">89310<i>元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#">投标</a>
+                </div>
+            </div>
+            <div class="item clearfix">
+                <h3><em>3</em>个月<i>日常生活消费</i></h3>
+                <div class="info">
+                    <p>约定年化收益率<span class="year-rate">8.05%</span></p>
+                    <p>金额<span class="total-money">23800<i>元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#" class="disabled">已满标</a>
+                </div>
+            </div>
+            <div class="item clearfix">
+                <h3><em>3</em>个月<i>资金周转</i></h3>
+                <div class="info">
+                    <p>约定年化收益率<span class="year-rate">10.05%</span></p>
+                    <p>金额<span class="total-money">58340<i>元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#" class="disabled">已满标</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-content clearfix">
+            <a href="#" class="brand"></a>
+            <ul>
+                <li class="title">关于我们</li>
+                <li><a href="#">公司介绍</a></li>
+                <li><a href="#">服务协议</a></li>
+                <li><a href="#">合作机构</a></li>
+                <li><a href="#">业务模式</a></li>
+            </ul>
+            <ul>
+                <li class="title">风险防范</li>
+                <li><a href="#">账户安全</a></li>
+                <li><a href="#">安全保障</a></li>
+            </ul>
+            <ul>
+                <li class="title">理财产品</li>
+                <li><a href="#">固定期限</a></li>
+                <li><a href="#">债权/散标</a></li>
+            </ul>
+            <ul>
+                <li class="title">交易帮助</li>
+                <li><a href="#">购买</a></li>
+                <li><a href="#">赎回</a></li>
+                <li><a href="#">提现</a></li>
+            </ul>
+            <ul>
+                <li class="title">机构服务</li>
+                <li><a href="#">机构中心</a></li>
+                <li><a href="#">合作联系</a></li>
+            </ul>
+        </div>
+    </section>
+</div>
+<footer>
+    <ul>
+        <li><span class="icon icon-zfywxkz">支付业务许可证</span></li>
+        <li><span class="icon icon-pcirz">PCI认证</span></li>
+        <li><span class="icon icon-visayz">Visa验证</span></li>
+        <li><span class="icon icon-vsjmfw">VerSign加密服务</span></li>
+        <li><span class="icon icon-wlgs">网络工商</span></li>
+        <li><span class="icon icon-shrz">电子商务协会认证诚信网</span></li>
+        <li><span class="icon icon-bjgs">北京工商</span></li>
+    </ul>
+    <p>北京某互联网金融有限公司 版权所有©2015-2016</p>
+</footer>
+
+<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
